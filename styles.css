@@ -8,34 +8,34 @@
     --bg-primary: #0a0a0f;
     --bg-secondary: #12121a;
     --bg-card: rgba(18, 18, 26, 0.8);
-    
+
     --neon-cyan: #00f0ff;
     --neon-magenta: #ff00ff;
     --neon-purple: #9d00ff;
     --neon-green: #00ff88;
     --neon-orange: #ff6b00;
-    
+
     --text-primary: #ffffff;
     --text-secondary: #b4b4c4;
     --text-muted: #6b6b7b;
-    
+
     --gradient-primary: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
     --gradient-secondary: linear-gradient(135deg, var(--neon-magenta), var(--neon-orange));
-    
+
     /* Typography */
     --font-display: 'Orbitron', sans-serif;
     --font-body: 'Rajdhani', sans-serif;
     --font-mono: 'Share Tech Mono', monospace;
-    
+
     /* Spacing */
     --section-padding: 100px 0;
     --container-width: 1200px;
-    
+
     /* Effects */
     --glow-cyan: 0 0 20px rgba(0, 240, 255, 0.5), 0 0 40px rgba(0, 240, 255, 0.3);
     --glow-magenta: 0 0 20px rgba(255, 0, 255, 0.5), 0 0 40px rgba(255, 0, 255, 0.3);
     --glow-text: 0 0 10px currentColor, 0 0 20px currentColor;
-    
+
     /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
@@ -43,7 +43,9 @@
 }
 
 /* Reset & Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -71,7 +73,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: 
+    background-image:
         linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
@@ -85,7 +87,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: 
+    background:
         radial-gradient(ellipse at 20% 20%, rgba(0, 240, 255, 0.1) 0%, transparent 50%),
         radial-gradient(ellipse at 80% 80%, rgba(255, 0, 255, 0.08) 0%, transparent 50%);
     pointer-events: none;
@@ -352,39 +354,117 @@ body {
 }
 
 @keyframes glitch-anim {
-    0% { clip: rect(31px, 9999px, 94px, 0); }
-    10% { clip: rect(70px, 9999px, 42px, 0); }
-    20% { clip: rect(29px, 9999px, 55px, 0); }
-    30% { clip: rect(44px, 9999px, 85px, 0); }
-    40% { clip: rect(15px, 9999px, 61px, 0); }
-    50% { clip: rect(67px, 9999px, 98px, 0); }
-    60% { clip: rect(82px, 9999px, 23px, 0); }
-    70% { clip: rect(51px, 9999px, 77px, 0); }
-    80% { clip: rect(39px, 9999px, 66px, 0); }
-    90% { clip: rect(18px, 9999px, 45px, 0); }
-    100% { clip: rect(73px, 9999px, 89px, 0); }
+    0% {
+        clip: rect(31px, 9999px, 94px, 0);
+    }
+
+    10% {
+        clip: rect(70px, 9999px, 42px, 0);
+    }
+
+    20% {
+        clip: rect(29px, 9999px, 55px, 0);
+    }
+
+    30% {
+        clip: rect(44px, 9999px, 85px, 0);
+    }
+
+    40% {
+        clip: rect(15px, 9999px, 61px, 0);
+    }
+
+    50% {
+        clip: rect(67px, 9999px, 98px, 0);
+    }
+
+    60% {
+        clip: rect(82px, 9999px, 23px, 0);
+    }
+
+    70% {
+        clip: rect(51px, 9999px, 77px, 0);
+    }
+
+    80% {
+        clip: rect(39px, 9999px, 66px, 0);
+    }
+
+    90% {
+        clip: rect(18px, 9999px, 45px, 0);
+    }
+
+    100% {
+        clip: rect(73px, 9999px, 89px, 0);
+    }
 }
 
 @keyframes glitch-anim2 {
-    0% { clip: rect(65px, 9999px, 40px, 0); }
-    10% { clip: rect(25px, 9999px, 78px, 0); }
-    20% { clip: rect(89px, 9999px, 31px, 0); }
-    30% { clip: rect(12px, 9999px, 96px, 0); }
-    40% { clip: rect(56px, 9999px, 48px, 0); }
-    50% { clip: rect(33px, 9999px, 71px, 0); }
-    60% { clip: rect(91px, 9999px, 19px, 0); }
-    70% { clip: rect(47px, 9999px, 84px, 0); }
-    80% { clip: rect(22px, 9999px, 59px, 0); }
-    90% { clip: rect(78px, 9999px, 36px, 0); }
-    100% { clip: rect(54px, 9999px, 93px, 0); }
+    0% {
+        clip: rect(65px, 9999px, 40px, 0);
+    }
+
+    10% {
+        clip: rect(25px, 9999px, 78px, 0);
+    }
+
+    20% {
+        clip: rect(89px, 9999px, 31px, 0);
+    }
+
+    30% {
+        clip: rect(12px, 9999px, 96px, 0);
+    }
+
+    40% {
+        clip: rect(56px, 9999px, 48px, 0);
+    }
+
+    50% {
+        clip: rect(33px, 9999px, 71px, 0);
+    }
+
+    60% {
+        clip: rect(91px, 9999px, 19px, 0);
+    }
+
+    70% {
+        clip: rect(47px, 9999px, 84px, 0);
+    }
+
+    80% {
+        clip: rect(22px, 9999px, 59px, 0);
+    }
+
+    90% {
+        clip: rect(78px, 9999px, 36px, 0);
+    }
+
+    100% {
+        clip: rect(54px, 9999px, 93px, 0);
+    }
 }
 
 @keyframes glitch-skew {
-    0% { transform: skew(0deg); }
-    10% { transform: skew(0.5deg); }
-    20% { transform: skew(-0.5deg); }
-    30% { transform: skew(0deg); }
-    100% { transform: skew(0deg); }
+    0% {
+        transform: skew(0deg);
+    }
+
+    10% {
+        transform: skew(0.5deg);
+    }
+
+    20% {
+        transform: skew(-0.5deg);
+    }
+
+    30% {
+        transform: skew(0deg);
+    }
+
+    100% {
+        transform: skew(0deg);
+    }
 }
 
 .hero-title-wrapper {
@@ -410,7 +490,9 @@ body {
 }
 
 @keyframes blink {
-    50% { opacity: 0; }
+    50% {
+        opacity: 0;
+    }
 }
 
 .hero-description {
@@ -524,8 +606,17 @@ body {
 }
 
 @keyframes pulse-glow {
-    0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
-    50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
+
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
 }
 
 .avatar-frame {
@@ -610,8 +701,15 @@ body {
 }
 
 @keyframes float {
-    0%, 100% { transform: translate(var(--x), var(--y)) translateY(0); }
-    50% { transform: translate(var(--x), var(--y)) translateY(-15px); }
+
+    0%,
+    100% {
+        transform: translate(var(--x), var(--y)) translateY(0);
+    }
+
+    50% {
+        transform: translate(var(--x), var(--y)) translateY(-15px);
+    }
 }
 
 /* Scroll Indicator */
@@ -655,8 +753,17 @@ body {
 }
 
 @keyframes scroll-bounce {
-    0%, 100% { top: 8px; opacity: 1; }
-    50% { top: 20px; opacity: 0.3; }
+
+    0%,
+    100% {
+        top: 8px;
+        opacity: 1;
+    }
+
+    50% {
+        top: 20px;
+        opacity: 0.3;
+    }
 }
 
 /* ===========================================
@@ -687,8 +794,15 @@ body {
 }
 
 @keyframes pulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.4); }
-    50% { box-shadow: 0 0 0 10px rgba(0, 255, 136, 0); }
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 10px rgba(0, 255, 136, 0);
+    }
 }
 
 .status-text {
@@ -830,8 +944,13 @@ body {
 }
 
 @keyframes shimmer {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 /* Soft Skills Tags */
@@ -1011,9 +1130,17 @@ body {
 }
 
 @keyframes loading {
-    0% { width: 20%; }
-    50% { width: 70%; }
-    100% { width: 20%; }
+    0% {
+        width: 20%;
+    }
+
+    50% {
+        width: 70%;
+    }
+
+    100% {
+        width: 20%;
+    }
 }
 
 /* ===========================================
@@ -1102,6 +1229,13 @@ body {
 .timeline-location {
     font-size: 0.9rem;
     color: var(--text-muted);
+}
+
+.timeline-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 10px;
+    line-height: 1.6;
 }
 
 .timeline-badge {
@@ -1396,29 +1530,29 @@ a.contact-value:hover {
         text-align: center;
         gap: 40px;
     }
-    
+
     .hero-description {
         margin: 0 auto 35px;
     }
-    
+
     .hero-buttons {
         justify-content: center;
     }
-    
+
     .hero-stats {
         justify-content: center;
     }
-    
+
     .avatar-container {
         width: 280px;
         height: 280px;
     }
-    
+
     .avatar-frame {
         width: 220px;
         height: 220px;
     }
-    
+
     .contact-grid {
         grid-template-columns: 1fr;
     }
@@ -1428,11 +1562,11 @@ a.contact-value:hover {
     :root {
         --section-padding: 80px 0;
     }
-    
+
     body {
         font-size: 16px;
     }
-    
+
     .nav-menu {
         position: fixed;
         top: 70px;
@@ -1449,52 +1583,52 @@ a.contact-value:hover {
         transition: var(--transition-normal);
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
-    
+
     .nav-menu.active {
         transform: translateY(0);
         opacity: 1;
     }
-    
+
     .nav-toggle {
         display: block;
     }
-    
+
     .nav-toggle.active .hamburger {
         background: transparent;
     }
-    
+
     .nav-toggle.active .hamburger::before {
         top: 0;
         transform: rotate(45deg);
     }
-    
+
     .nav-toggle.active .hamburger::after {
         top: 0;
         transform: rotate(-45deg);
     }
-    
+
     .hero-name {
         font-size: clamp(2rem, 8vw, 3rem);
     }
-    
+
     .skills-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .timeline-item {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .timeline-marker {
         flex-direction: row;
         gap: 15px;
     }
-    
+
     .marker-line {
         width: 100px;
         height: 2px;
@@ -1503,12 +1637,12 @@ a.contact-value:hover {
         margin-left: 10px;
         background: linear-gradient(to right, var(--neon-cyan), transparent);
     }
-    
+
     .certification-card {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .cert-details {
         text-align: left;
     }
@@ -1519,29 +1653,29 @@ a.contact-value:hover {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .hero-buttons {
         flex-direction: column;
         width: 100%;
     }
-    
+
     .btn {
         width: 100%;
         justify-content: center;
     }
-    
+
     .about-card {
         padding: 25px;
     }
-    
+
     .skill-category {
         padding: 20px;
     }
-    
+
     .project-card {
         padding: 20px;
     }
-    
+
     .contact-info,
     .contact-form-wrapper {
         padding: 25px;
