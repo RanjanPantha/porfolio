@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ranjan Babu Pantha - Developer & Gaming Enthusiast Portfolio">
+    <title>Ranjan Babu Pantha | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>RBP<span class="logo-bracket">/&gt;</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">
+                    <span class="terminal-prompt">$</span> Hello, World! I'm
+                </p>
+                <h1 class="hero-name glitch" data-text="Ranjan Babu Pantha">
+                    Ranjan Babu Pantha
+                </h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title-static">I'm a </span>
+                    <span class="hero-title" id="typedText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate developer & gaming enthusiast crafting digital experiences
+                    with code. Currently pursuing my Bachelor's in Engineering while exploring
+                    the intersection of technology and creativity.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span class="btn-icon">▶</span> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="btn-icon">✉</span> Contact Me
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span>+
+                        <span class="stat-label">Years Coding</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span>+
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="100">0</span>%
+                        <span class="stat-label">Passion</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-container">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-frame">
+                        <div class="avatar-inner">
+                            <div class="avatar-placeholder">
+                                <span class="avatar-icon">👨‍💻</span>
+                            </div>
+                        </div>
+                        <div class="avatar-corners">
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="floating-icons">
+                        <span class="float-icon" style="--delay: 0s; --x: -60px; --y: -40px;">🎮</span>
+                        <span class="float-icon" style="--delay: 0.5s; --x: 70px; --y: -30px;">💻</span>
+                        <span class="float-icon" style="--delay: 1s; --x: -50px; --y: 50px;">🐍</span>
+                        <span class="float-icon" style="--delay: 1.5s; --x: 60px; --y: 60px;">⚡</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">//</span> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-card glass-card">
+                    <div class="about-header">
+                        <div class="status-indicator"></div>
+                        <span class="status-text">Currently Active</span>
+                    </div>
+                    <div class="about-body">
+                        <p class="about-text">
+                            I'm a <span class="highlight">developer</span> and <span class="highlight">gaming
+                                enthusiast</span>
+                            based in <span class="highlight">Kathmandu, Nepal</span>. Currently pursuing my Bachelor's
+                            degree
+                            at Advanced College of Engineering and Management, I blend my passion for technology with
+                            creative problem-solving.
+                        </p>
+                        <p class="about-text">
+                            With expertise in <span class="highlight">Python, C, and C++</span>, I love building
+                            innovative solutions and exploring cutting-edge technologies. My background in
+                            <span class="highlight">graphic design</span> and <span class="highlight">NLP</span>
+                            allows me to approach challenges from unique angles.
+                        </p>
+                        <p class="about-text">
+                            When I'm not coding, you'll find me gaming, practicing <span
+                                class="highlight">Taekwondo</span>,
+                            or exploring new technologies. I believe in continuous learning and pushing the boundaries
+                            of what's possible.
+                        </p>
+                    </div>
+                    <div class="about-footer">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-icon">📍</span>
+                                <span class="info-text">Kalanki, Kathmandu</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🎓</span>
+                                <span class="info-text">Engineering Student</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🎮</span>
+                                <span class="info-text">Gaming Enthusiast</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🥋</span>
+                                <span class="info-text">Taekwondo - Skillful</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">//</span> Skills & Abilities
+            </h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <span class="category-icon">⚔️</span>
+                        <h3 class="category-title">Technical Arsenal</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Skillful</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C Programming</span>
+                                <span class="skill-level">Skillful</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-level">Skillful</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software Skills -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <span class="category-icon">🛠️</span>
+                        <h3 class="category-title">Software & Tools</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe Photoshop</span>
+                                <span class="skill-level">Skilled</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe Illustrator</span>
+                                <span class="skill-level">Skilled</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CorelDRAW</span>
+                                <span class="skill-level">Skilled</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MS Office Suite</span>
+                                <span class="skill-level">Proficient</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category glass-card full-width">
+                    <div class="category-header">
+                        <span class="category-icon">🎯</span>
+                        <h3 class="category-title">Power-Ups & Abilities</h3>
+                    </div>
+                    <div class="soft-skills">
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">💬</span> Communication
+                        </div>
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">👑</span> Leadership
+                        </div>
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">🧩</span> Problem Solving
+                        </div>
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">📊</span> Organizational
+                        </div>
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">🎮</span> Gaming - Experienced
+                        </div>
+                        <div class="soft-skill-tag">
+                            <span class="tag-icon">🥋</span> Taekwondo - Skillful
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">//</span> Quest Log
+            </h2>
+            <p class="section-subtitle">Featured projects and completed missions</p>
+
+            <div class="projects-grid">
+                <!-- Featured Project: ML -->
+                <div class="project-card glass-card featured">
+                    <div class="project-header">
+                        <span class="project-badge">⭐ Featured</span>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Duplicate Question Pair Detection</h3>
+                        <p class="project-subtitle">Using Siamese MALSTM Architecture</p>
+                        <p class="project-description">
+                            Developed an NLP-based deep learning model using Siamese LSTM architecture
+                            to identify semantically duplicate questions from the Quora dataset.
+                            Leveraged Word2Vec embeddings for word representation and Manhattan distance
+                            to compute similarity between question pairs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Word2Vec</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RanjanPantha/Duplicate_pair_detection" target="_blank"
+                                class="project-link">
+                                <span class="link-icon">🔗</span> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-decoration">
+                        <div class="deco-line"></div>
+                        <div class="deco-dot"></div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Hotel Management -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <span class="project-badge">🏨 System</span>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hotel Management System</h3>
+                        <p class="project-subtitle">Complete Booking & Management Solution</p>
+                        <p class="project-description">
+                            A comprehensive hotel management system built with C++ featuring
+                            room booking, guest management, check-in/check-out operations,
+                            and billing functionality. Demonstrates strong OOP principles
+                            and file handling capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">File Handling</span>
+                            <span class="tech-tag">Console App</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RanjanPantha/Hotel-management-system" target="_blank"
+                                class="project-link">
+                                <span class="link-icon">🔗</span> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-decoration">
+                        <div class="deco-line"></div>
+                        <div class="deco-dot"></div>
+                    </div>
+                </div>
+
+                <!-- Project 3: OOP Projects -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <span class="project-badge">🎓 Academic</span>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">OOP Projects Collection</h3>
+                        <p class="project-subtitle">BCT II Year Projects</p>
+                        <p class="project-description">
+                            A collection of Object-Oriented Programming projects developed
+                            during BCT II year. Features various implementations showcasing
+                            inheritance, polymorphism, encapsulation, and abstraction concepts
+                            in C++ and C programming.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Data Structures</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RanjanPantha/OOP_projects" target="_blank" class="project-link">
+                                <span class="link-icon">🔗</span> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-decoration">
+                        <div class="deco-line"></div>
+                        <div class="deco-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">//</span> Experience & Training
+            </h2>
+
+            <div class="timeline">
+                <!-- Education Timeline -->
+                <div class="timeline-section">
+                    <h3 class="timeline-header">
+                        <span class="header-icon">🎓</span> Education Journey
+                    </h3>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                            <div class="marker-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h4 class="timeline-title">Bachelor's Degree</h4>
+                            <p class="timeline-place">Advanced College of Engineering and Management</p>
+                            <p class="timeline-location">Kathmandu</p>
+                            <div class="timeline-badge active">In Progress</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                            <div class="marker-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">August 2018 - July 2020</span>
+                            <h4 class="timeline-title">+2 (Higher Secondary)</h4>
+                            <p class="timeline-place">Kathmandu Model College</p>
+                            <p class="timeline-location">Kathmandu</p>
+                            <div class="timeline-badge completed">Completed</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">April 2010 - March 2018</span>
+                            <h4 class="timeline-title">School</h4>
+                            <p class="timeline-place">Gyankunj Secondary School</p>
+                            <p class="timeline-location">Kathmandu</p>
+                            <div class="timeline-badge completed">Completed</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="timeline-section">
+                    <h3 class="timeline-header">
+                        <span class="header-icon">🏆</span> Certifications & Training
+                    </h3>
+
+                    <div class="certification-card glass-card">
+                        <div class="cert-icon">📜</div>
+                        <div class="cert-content">
+                            <h4 class="cert-title">Diploma in Computer Application</h4>
+                            <p class="cert-issuer">Appolo Technical Institute</p>
+                            <span class="cert-year">2023</span>
+                            <ul class="cert-details">
+                                <li>Office Handling Package: Proficient in MS Word, Excel, PowerPoint</li>
+                                <li>Advanced Excel: Data management, formulas, pivot tables, charts</li>
+                                <li>Tally ERP 9: Accounting principles, ledger management, GST filing</li>
+                                <li>Diploma in Graphic Design: Adobe Photoshop, Illustrator, CorelDRAW</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">//</span> Connect With Me
+            </h2>
+            <p class="section-subtitle">Let's team up and create something amazing!</p>
+
+            <div class="contact-grid">
+                <div class="contact-info glass-card">
+                    <h3 class="contact-heading">Get In Touch</h3>
+                    <p class="contact-text">
+                        I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your vision.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-data">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:RANJANPANTHA1@gmail.com" class="contact-value">
+                                    RANJANPANTHA1@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-data">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+9779810286381" class="contact-value">
+                                    +977 9810286381
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-data">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Kalanki, Kathmandu, Nepal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/RanjanPantha" target="_blank" class="social-link" title="GitHub">
+                            <svg viewBox="0 0 24 24" class="social-icon">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper glass-card">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Player Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input"
+                                placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" name="message" class="form-textarea"
+                                placeholder="Type your message here..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-icon">🚀</span> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>RBP<span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-text">
+                    Crafted with <span class="heart">❤️</span> & <span class="code">&lt;code&gt;</span>
+                </p>
+                <p class="footer-copyright">
+                    © 2024 Ranjan Babu Pantha. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
